@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#E48934"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#E48934"
+        android:foregroundTint="#E48934"
+        android:foregroundTintMode="add"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="#E48934"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/app_voraz"
+            android:textAlignment="center"
+            android:textColor="#E48934"
+            android:textSize="37sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:scaleType="center"
+            app:srcCompat="@drawable/voraz_logo" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#E48934"
+            android:drawableLeft="@drawable/menu"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="abrirMenu"
+            android:text="@string/app_menu"
+            android:textSize="14.5sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#E48934"
+            android:drawableLeft="@drawable/pedido"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="abrirPedido"
+            android:text="@string/app_pedido"
+            android:textSize="14.5sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#E48934"
+            android:drawableLeft="@drawable/reserva"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="abrirReserva"
+            android:text="@string/app_reserva"
+            android:textSize="14.5sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#E48934"
+            android:drawableLeft="@drawable/sedes"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="abrirSedes"
+            android:text="@string/app_sede"
+            android:textSize="14.5sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#E48934"
+            android:drawableLeft="@drawable/calificar"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/app_calificacion"
+            android:onClick="abrirCalificar"
+            android:textSize="14.5sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

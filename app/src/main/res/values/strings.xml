@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">MyRestaurant</string>
+    <string name="app_voraz">\nVoraz Restaurante</string>
+    <string name="app_menu">Conoce nuestro menu</string>
+    <string name="app_sede">Visita nuestras sedes</string>
+    <string name="app_reserva">Realiza tu reserva</string>
+    <string name="app_pedido">Realiza tu pedido</string>
+    <string name="app_calificacion">Califica tu experiencia</string>
+    <string name="calificacion_enviar">Enviar calificación</string>
+    <string name="experencia_calificacion">¿Cómo fue tu experiencia?</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="contacto_whatsapp">+57 3053404455</string>
+    <string name="mensaje_pedido">Hola. Quisiera hacer un pedido 🍔🍟 para [entrega a domicilio/recoger " +
+                "en el local]. Deseo ordenar: [detallar el pedido]. La dirección de entrega " +
+                "es [dirección completa] 🏠 y mi número de contacto 📱 es [número de teléfono]. " +
+                "¿Podrían confirmarme el tiempo estimado de entrega? ⏰ Muchas gracias 🤩</string>
+    <string name="mensaje_reserva">Hola. Me gustaría hacer una reserva 📆 para [número de personas] 👥" +
+                "personas el [fecha] a las [hora]. ¿Podrían confirmarme si hay disponibilidad? Muchas gracias 🤩</string>
+
+    <!-- Entradas -->
+    <string name="entrada1">Sopas</string>
+    <string name="entrada2">Empanadas</string>
+    <string name="entrada3">Patacones</string>
+
+    <string name="ingredientes_entrada1">Sancocho, Consome, Frijoles</string>
+    <string name="ingredientes_entrada2">De Carne, Pollo, Queso, Jamón y Queso, Paisas</string>
+    <string name="ingredientes_entrada3">Con hogao, Guacamole</string>
+
+    <string name="precio_entrada1">$8.900</string>
+    <string name="precio_entrada2">$4.900</string>
+    <string name="precio_entrada3">$11.900</string>
+
+    <!-- Platos Fuertes -->
+    <string name="plato_fuerte1">Asado</string>
+    <string name="plato_fuerte2">Pasta</string>
+    <string name="plato_fuerte3">Paella</string>
+
+    <string name="ingredientes_plato_fuerte1">Carne, Papas, Ensalada, Vinagreta</string>
+    <string name="ingredientes_plato_fuerte2">Pasta Larga o Corta, Tomate, Albahaca, Queso</string>
+    <string name="ingredientes_plato_fuerte3">Mariscos, Arroz, Pimiento, Tomate</string>
+
+    <string name="precio_plato_fuerte1">$29.900</string>
+    <string name="precio_plato_fuerte2">$27.900</string>
+    <string name="precio_plato_fuerte3">$31.000</string>
+
+    <!-- Bebidas -->
+    <string name="bebida1">Agua</string>
+    <string name="bebida2">Jugo Natural</string>
+    <string name="bebida3">Gaseosa</string>
+
+    <string name="ingredientes_bebida1">Agua Mineral Tratada</string>
+    <string name="ingredientes_bebida2">En Agua o en Leche, Mango, Maracuyá, Fresa</string>
+    <string name="ingredientes_bebida3">Coca Cola, Pepsi, Uva, Manzana, Sprite</string>
+
+    <string name="precio_bebida1">$4.500</string>
+    <string name="precio_bebida2">$5.900</string>
+    <string name="precio_bebida3">$4.900</string>
+
+    <!-- Postres -->
+    <string name="postre1">Tarta de Manzana</string>
+    <string name="postre2">Helado</string>
+    <string name="postre3">Brownie</string>
+
+    <string name="ingredientes_postre1">Manzana, Canela, Azúcar, Leche, Huevos</string>
+    <string name="ingredientes_postre2">Vainilla, Chocolate, Fresa, Caramelo</string>
+    <string name="ingredientes_postre3">Brownie, Helado</string>
+
+    <string name="precio_postre1">$15.900</string>
+    <string name="precio_postre2">$4.500</string>
+    <string name="precio_postre3">$12.000</string>
+
+    <!-- Licores -->
+    <string name="licor1">Whisky</string>
+    <string name="licor2">Ron</string>
+    <string name="licor3">Vodka</string>
+
+    <string name="ingredientes_licor1">Shot de Whisky</string>
+    <string name="ingredientes_licor2">Shot de Ron</string>
+    <string name="ingredientes_licor3">Shot de Vodka</string>
+
+    <string name="precio_licor1">$15.900</string>
+    <string name="precio_licor2">$7.900</string>
+    <string name="precio_licor3">$8.500</string>
+</resources>

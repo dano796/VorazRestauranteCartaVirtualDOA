@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amatica_sc_bold</item>
+        <item>@font/brygada_1918_semibold</item>
+        <item>@font/commissioner_medium</item>
+        <item>@font/dekko</item>
+        <item>@font/delius</item>
+        <item>@font/gaegu_bold</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/poppins_semibold</item>
+    </array>
+</resources>
