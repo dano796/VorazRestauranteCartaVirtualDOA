@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
     public void abrirPedido(View v){
-        String url = "https://api.whatsapp.com/send?phone=" + getString(R.string.contacto_whatsapp) + "&text" + Uri.encode(getString(R.string.mensaje_pedido));
+        String url = "https://api.whatsapp.com/send?phone=" + getString(R.string.contacto_whatsapp) + "&text=" + Uri.encode(getString(R.string.mensaje_pedido));
         PackageManager pm = getPackageManager();
         try {
             pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void abrirReserva(View v){
-        String url = "https://api.whatsapp.com/send?phone=" + getString(R.string.contacto_whatsapp) + "&text" + Uri.encode(getString(R.string.mensaje_reserva));
+        String url = "https://api.whatsapp.com/send?phone=" + getString(R.string.contacto_whatsapp) + "&text=" + Uri.encode(getString(R.string.mensaje_reserva));
         PackageManager pm = getPackageManager();
         try {
             pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);

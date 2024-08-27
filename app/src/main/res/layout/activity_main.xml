@@ -33,7 +33,7 @@
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
-            android:layout_height="267dp"
+            android:layout_height="210dp"
             android:scaleType="center"
             app:srcCompat="@drawable/voraz_logo" />
 
