@@ -37,7 +37,8 @@
                     android:textStyle="bold"
                     android:textSize="16sp"
                     android:textColor="@color/black"
-                    android:paddingTop="32dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="5sp"
                     android:paddingStart="16dp"
                     android:paddingLeft="16dp"
                     android:text="TextView" />
@@ -49,9 +50,9 @@
                     android:maxLines="3"
                     android:textStyle="bold"
                     android:textSize="16sp"
-                    android:paddingTop="16sp"
-                    android:paddingBottom="16sp"
-                    android:paddingStart="16dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:paddingTop="8sp"
+                    android:paddingStart="16sp"
                     android:paddingLeft="16dp"
                     android:text="TextView" />
 

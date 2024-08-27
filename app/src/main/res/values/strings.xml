@@ -10,11 +10,8 @@
     <string name="experencia_calificacion">¿Cómo fue tu experiencia?</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="contacto_whatsapp">+57 3053404455</string>
-    <string name="mensaje_pedido">Hola. Quisiera hacer un pedido para [entrega a domicilio/recoger " +
-                "en el local]. Deseo ordenar: [detallar el pedido]. La dirección de entrega " +
-                "es [dirección completa]</string>
-    <string name="mensaje_reserva">Hola. Me gustaría hacer una reserva para [número de personas]" +
-                "personas el [fecha] a las [hora]</string>
+    <string name="mensaje_pedido">Hola. Quisiera hacer un pedido para [entrega a domicilio/recoger en el local]. Deseo ordenar: [detallar el pedido]. La dirección de entrega es [dirección completa]</string>
+    <string name="mensaje_reserva">Hola. Me gustaría hacer una reserva para [número de personas] personas el [fecha] a las [hora]</string>
 
     <!-- Entradas -->
     <string name="entrada1">Sopas</string>
